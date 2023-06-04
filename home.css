@@ -1,0 +1,123 @@
+/* Common styles for all screen sizes */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+}
+
+#chatlog {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.142);
+    border-top: 3px solid rgba(0, 0, 0, 0.142);
+    border-right: 3px solid rgba(0, 0, 0, 0.142);
+    color: #fff;
+    max-width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"], input[type="submit"] {
+    width: calc(100% - 20px);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: white;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.142);
+}
+
+input[type="text"]:focus {
+    outline: 2px solid white;
+}
+
+input[type="submit"] {
+    color: #fff;
+    cursor: pointer;
+    width:100%;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+input[type="submit"]:active {
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+input::placeholder {
+    color: #c9c9c9; /* Placeholder text color */
+    font-style: italic; /* Placeholder text style */
+}
+
+.log {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 0, 0, 0.453);
+}
+
+.log:hover {
+    background-color: rgba(128, 0, 0, 0.621);
+}
+
+/* Responsive styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    #chatlog {
+        height: 200px;
+    }
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: center;
+}
+
+.msg {
+    border-left: 4px solid rgba(0, 0, 0, 0.142);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+strong {
+    color: black;
+}
+
+span {
+    color: rgba(0, 0, 0, 0.352);
+}
+
+img {
+    width: 50%;
+}
+
+a {
+    color: rgb(138, 164, 255);
+    
+}
