@@ -1,7 +1,8 @@
 # Simple PHP Chatroom
 # Chatty.V1
 
-[Chatty.v1 website example](https://www.example.com](https://chatty-v1.000webhostapp.com/)
+[Chatty.v1 website example](https://chatty-v1.000webhostapp.com/ "https://chatty-v1")
+
 
 This is a simple PHP chatroom application with the following features:
 
