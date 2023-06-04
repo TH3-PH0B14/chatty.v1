@@ -11,7 +11,7 @@ Admins are required to enter a password ("admin123") and a username to access th
 <img src="login.jpg" alt="Nice and simple login screen" width="500">
 
 <h2>Nice and simple chat screen:</h2>
-<img src="login.jpg" alt="Nice and simple login screen" width="500">
+<img src="chat.jpg" alt="Nice and simple login screen" width="500">
 
 ## Chatroom Page
 After successful login, users are directed to the chatroom page with the following components:
