@@ -7,8 +7,11 @@ This is a simple PHP chatroom application with the following features:
 Users are required to enter a password ("123test") and a username to access the chatroom.
 Admins are required to enter a password ("admin123") and a username to access the chatroom (admin).
 
-<img src="login.jpg" alt="Nice and simple login screen" width="300">
-<h2>Nice and simple login screen</h2>
+<h2>Nice and simple login screen:</h2>
+<img src="login.jpg" alt="Nice and simple login screen" width="500">
+
+<h2>Nice and simple chat screen:</h2>
+<img src="login.jpg" alt="Nice and simple login screen" width="500">
 
 ## Chatroom Page
 After successful login, users are directed to the chatroom page with the following components:
