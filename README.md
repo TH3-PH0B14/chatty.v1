@@ -8,6 +8,7 @@ Users are required to enter a password ("123test") and a username to access the 
 Admins are required to enter a password ("admin123") and a username to access the chatroom (admin).
 
 <img src="login.jpg" alt="Nice and simple login screen" width="300">
+<h2>Nice and simple login screen</h2>
 
 ## Chatroom Page
 After successful login, users are directed to the chatroom page with the following components:
